@@ -6,7 +6,7 @@ if number < 0:
     number = number * -1
     number = number % 10
     number = number * -1
-else: 
+else:
     number = number % 10
 print(f"{number}", end=" ")
 if number > 5:
