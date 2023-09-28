@@ -2,5 +2,5 @@
 """This class does not do a single thing. Yet."""
 
 class Square:
-    """Not even a Square yet."""
+    """Empty Class"""
     pass
