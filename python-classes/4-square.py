@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Now Square will be able to check if the size it is given is right."""
+"""A new, refined, version of the size value setting method."""
 
 
 class Square:

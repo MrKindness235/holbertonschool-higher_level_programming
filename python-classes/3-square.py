@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Now Square will be able to check if the size it is given is right."""
+"""Square has become able to express some self-spatial-awareness."""
 
 
 class Square:
