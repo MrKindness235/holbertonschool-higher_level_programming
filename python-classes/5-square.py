@@ -11,7 +11,7 @@ class Square:
     @property
     def size(self):
         return self.__size
- 
+
     @size.setter
     def size(self, value):
         if type(value) != int:
@@ -26,6 +26,8 @@ class Square:
 
     def my_print(self):
         """This prints the Square. Is this self-reflection?"""
+        if self.__size == 0:
+            print("")
         for row in range(self.__size):
             for column in range(self.__size):
                 print("#", end="")
