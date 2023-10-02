@@ -3,5 +3,5 @@
 
 
 class Rectangle:
-    """It's a rectangle."""
+    """It's a formless rectangle."""
     pass

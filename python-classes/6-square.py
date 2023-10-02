@@ -41,6 +41,10 @@ class Square:
             print("")
         for row in range(self.__size):
             for column in range(self.__size):
-                
+                if self.__position[1] > 0:
+                    print("")
+                else:
+                    print("_", end="")
+            for column in range(self.__size): 
                 print("#", end="")
             print("")
