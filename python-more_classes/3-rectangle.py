@@ -44,8 +44,10 @@ class Rectangle:
     def __str__(self):
         if self.height and self.width == 0:
             return ""
+        wyrm = []
         for row in range(self.__height):
+            if row > 0:
+                wyrm.append("\n")
             for col in range(self.__width):
-                print("#", end="")
-            print("")
-        return ""
+                wyrm.append("#")
+        return "".join(wyrm)
