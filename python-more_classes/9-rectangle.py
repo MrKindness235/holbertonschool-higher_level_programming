@@ -2,10 +2,6 @@
 """A new step for the Rectangle class."""
 
 
-from curses.textpad import rectangle
-from hmac import new
-
-
 class Rectangle:
     """It's a formful rectangle."""
 
