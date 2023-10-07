@@ -70,6 +70,7 @@ class Rectangle:
 
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
+        """This one checks wich one of both rectangles is bigger."""
         if type(rect_1) != Rectangle:
             raise TypeError("rect_1 must be an instance of Rectangle")
         if type(rect_2) != Rectangle:
@@ -83,4 +84,5 @@ class Rectangle:
 
     @classmethod
     def square(cls, size=0):
+        """This one creates an instance of Rectangle which is also a Square."""
         return Rectangle(size, size)
