@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-from sqlalchemy import false
 
 
 def is_same_class(obj, a_class):
