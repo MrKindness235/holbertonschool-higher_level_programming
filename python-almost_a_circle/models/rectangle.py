@@ -4,6 +4,7 @@
 
 from .base import Base
 
+
 class Rectangle(Base):
     """The new Revtangle class."""
 
@@ -16,6 +17,7 @@ class Rectangle(Base):
 
     @property
     def width(self):
+        """In a beginning I giveth width to the Rectangle."""
         return self.__width
 
     @width.setter
@@ -29,6 +31,7 @@ class Rectangle(Base):
 
     @property
     def height(self):
+        """And then I spoketh: There shalt be height. And height there was."""
         return self.__height
 
     @height.setter
@@ -42,11 +45,12 @@ class Rectangle(Base):
 
     @property
     def x(self):
-        """The only reason I gave this a setter is because I was obligated."""
+        """Then this little prick came around."""
         return self.__x
 
     @x.setter
     def x(self, value):
+        """The only reason I gave this a setter is because I was obligated."""
         if not isinstance(value, int):
             raise TypeError("X must be an integer")
         if value < 0:
@@ -55,6 +59,7 @@ class Rectangle(Base):
 
     @property
     def y(self):
+        """And then it cameth to thyself! The question to thy answer!"""
         return self.__y
 
     @y.setter
