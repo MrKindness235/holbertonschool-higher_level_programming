@@ -5,9 +5,10 @@
 class Base:
     """The base of this project."""
     __nb_objects = 0
+
     def __init__(self, id=None):
         """Constructor."""
-        
+
         if id is not None:
             self.id = id
         else:
