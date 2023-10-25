@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-def common_elemets(set_1, set_2):
-    common = [i for i in set_1 if i in set_2]
-    return common
+def common_elements(set_1, set_2):
+    return set_1.intersection(set_2)
