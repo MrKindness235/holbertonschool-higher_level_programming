@@ -1,0 +1,1 @@
+Trying to work in SQL after the departure of my grandfather.

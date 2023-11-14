@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This is Mylist. A list that I have claimed."""
+"""This is Mylist. A list that I have claimed as mine."""
 
 
 class MyList(list):
