@@ -1,3 +1,2 @@
 -- Prints a description of the table
-SELECT 'Table   Create Table                                                                         
-first_table     CREATE TABLE `first_table` (\n  `id` int DEFAULT NULL,\n  `name` varchar(256) DEFAULT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci' as '';
+SHOW CREATE TABLE first_table;
